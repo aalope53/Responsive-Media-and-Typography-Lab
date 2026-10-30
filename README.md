@@ -21,3 +21,15 @@ Build a media and typography optimization pass:
 - zoom and slow-network notes
 
 The starter uses placeholder image paths so you can replace them with your own exported image variants.
+
+Testing
+
+Narrow: Elements stack appropriately, the image scales to one of the three sizes, and the text condenses to a point where it is still readable.
+
+Wide: The Hero becomes two columnns and image remains proportional
+
+200% Zoom: 	Text doesn't overlap or disappear and horizontal scrolling isn't introduced unnecessarily
+
+Slow-Network Behavior: Text is instantly loaded in with slower connections like 3G and the layout remains stable while the image is trying to load.
+
+AI Disclosure: The only use of AI that is present are the image size recommendations and the line-height suggestions. 
